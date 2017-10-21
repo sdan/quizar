@@ -4,7 +4,9 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
-    "micro": "latest"
+    "jquery": "^3.2.1",
+    "micro": "latest",
+    "popper.js": "^1.12.5"
   },
   "name": "quizar",
   "version": "1.0.0",
