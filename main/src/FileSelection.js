@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import getImageDataFromDataUrl from './utils/getImageDataFromDataUrl';
 import hiro from './assets/hiro.png';
-import rose from './assets/rose.jpg';
+import rose from './assets/main.jpg';
 import Gallery from './Gallery';
 import RaisedButton from 'material-ui/RaisedButton';
 
@@ -116,7 +116,7 @@ class FileSelection extends Component {
 
         return (
             <div style={styles.container}>
-                <h1 style={styles.title}>Sketch anything you want using your phone as a guide</h1>
+                <h1 style={styles.title}>Search up the Quizlet Set you want to use!/h1>
                 <hr style={styles.hr} />
                 <ol style={styles.list}>
                     <li style={styles.listItem}>
@@ -125,7 +125,7 @@ class FileSelection extends Component {
                         </div>
                         <div style={styles.hiroMarker}>
                             <a style={styles.a} href={hiro}>
-                                <img style={styles.hiroMarkerImg} alt="Hiro marker example" src={hiro} />
+                                <img style={styles.hiroMarkerImg} alt="AR Marker" src={hiro} />
                             </a>
                         </div>
                     </li>
