@@ -5,6 +5,7 @@ import rose from './assets/main.jpg';
 import Gallery from './Gallery';
 import RaisedButton from 'material-ui/RaisedButton';
 
+
 const styles = {
     container: {
         minHeight: '100%',
@@ -116,7 +117,7 @@ class FileSelection extends Component {
 
         return (
             <div style={styles.container}>
-                <h1 style={styles.title}>Search up the Quizlet Set you want to use!/h1>
+                <h1 style={styles.title}>Search up the Quizlet Set you want to use!</h1>
                 <hr style={styles.hr} />
                 <ol style={styles.list}>
                     <li style={styles.listItem}>
@@ -130,16 +131,14 @@ class FileSelection extends Component {
                         </div>
                     </li>
                     <li style={styles.listItem}>
-                        Put it on a sheet of paper
+                        Put it around your house
                     </li>
                     <li style={styles.listItem}>
-                        Choose something to draw
-                        <div>
-                            <RaisedButton style={styles.btnFileInput} secondary fullWidth htmlFor="file_input" onTouchTap={this.handleFileInputClick} label="From your photo library">
-                                <input ref={this.storeFileInputRef} id="file_input" style={styles.fileInput} type="file" accept="image/*" onChange={this.handleChange} />
-                            </RaisedButton>
-                        </div>
-                        <RaisedButton secondary fullWidth onTouchTap={this.handleOpenGalleryClick} label="Our drawings" />
+                        Start studying in your new and improved reality
+           <div class = "paddy">
+            <RaisedButton secondary fullWidth onTouchTap={this.handleOpenGalleryClick} label="Choose your set" />
+            </div>
+                        
                     </li>
                 </ol>
             </div>
