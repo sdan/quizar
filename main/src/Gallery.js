@@ -1,6 +1,8 @@
 import React from 'react';
 import GalleryItem from './GalleryItem';
 import RaisedButton from 'material-ui/RaisedButton';
+    import DropDownMenu from 'material-ui/DropDownMenu';
+import MenuItem from 'material-ui/MenuItem';
 
 const styles = {
     container: {
@@ -34,6 +36,30 @@ const defaultImages = [
 const Gallery = ({ images = defaultImages, onClose, onSelected }) => (
     <div style={styles.container}>        
         <h1>Choose your set!</h1>
+    
+    
+    
+    
+
+    
+    
+  
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         <RaisedButton secondary fullWidth onClick={onClose} label="Cancel" />
         <div style={styles.gallery}>        
             {images.map(image => <GalleryItem key={image} image={image} onSelected={onSelected}  />)}
