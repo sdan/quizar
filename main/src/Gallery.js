@@ -19,13 +19,16 @@ const styles = {
     }
 }
 const defaultImages = [
-    require('./assets/drawing1.png'),
-    require('./assets/drawing2.png'),
-    require('./assets/drawing3.png'),
-    require('./assets/drawing4.png'),
-    require('./assets/drawing5.png'),
-    require('./assets/drawing6.png'),
-    require('./assets/drawing7.png'),
+    require('./assets/picture1.png'),
+    require('./assets/picture2.png'),
+    require('./assets/picture3.png'),
+    require('./assets/picture4.png'),
+    require('./assets/picture5.png'),
+    require('./assets/picture6.png'),
+    require('./assets/picture7.png'),
+    require('./assets/picture8.png'),
+    require('./assets/picture9.png'),
+
 ];
 
 const Gallery = ({ images = defaultImages, onClose, onSelected }) => (
@@ -34,7 +37,7 @@ const Gallery = ({ images = defaultImages, onClose, onSelected }) => (
         <RaisedButton secondary fullWidth onClick={onClose} label="Cancel" />
         <div style={styles.gallery}>        
             {images.map(image => <GalleryItem key={image} image={image} onSelected={onSelected}  />)}
-        <h1>hello</h1>
+        <h1>Good Choice!</h1>
         </div>
     </div>
 )
