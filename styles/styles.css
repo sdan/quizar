@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@font-face {
+    font-family: gobble;
+    src: url("/fonts/gbold.woff2") format("woff2"), url("gbold.ttf") format("truetype");
+}
+
+.flex-container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: DodgerBlue;
+    justify-content: center;
+    align-items: center;
+}
+
+#apple {
+    border: 2px;
+    padding: 10px;
+    border-radius: 25px;
+    background: #4e54c8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e54c8, #8f94fb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 10px 10px 5px grey;
+}
+
+#view {
+    border-radius: 20px;
+    background: white;
+}
+
+.godown {
+    margin-bottom: -4px;
+    margin-top: -4px;
+}
+
+.boxy {
+    background-color: #f1f1f1;
+    width: 90px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.global {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.standardbold {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.gbold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.githubbold {
+    font-family: 'gobble';
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.texty {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+body {}
+
+.aaa {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.bbb {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.corn {
+    border-radius: 15px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+
+.smallboi {
+    letter-spacing: -2px;
+}
+
+.hackfriend {
+    letter-spacing: -1px;
+}
+
+.research {
+    background-color: lightblue;
+}
+
+.fullsendbaby {
+    letter-spacing: 0.5px;
+}
+
+.fatboi {
+    font-weight: bold;
+}
+
+.blogy {
+    background-color: #FDD835;
+}
+
+.pp {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.leftpad {
+    padding-left: 10px;
+}
+
+.toppad {
+    padding-top: 5px;
+}
+
+.ab {
+    margin-left: -3px;
+}
+
+.ccc {
+    padding-top: 25px;
+    padding-left: -5px;
+    padding-bottom: 15px;
+}
+
+.techy {
+    background-color: #BCAAA4;
+}
+
+.orangy {
+    background-color: #D84315;
+    fon
+}
